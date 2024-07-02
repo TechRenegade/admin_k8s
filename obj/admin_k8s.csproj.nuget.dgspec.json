@@ -1,0 +1,72 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/erema/Documents/GIT_PROJECT_TEST/admin_k8s/admin_k8s.csproj": {}
+  },
+  "projects": {
+    "/home/erema/Documents/GIT_PROJECT_TEST/admin_k8s/admin_k8s.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/erema/Documents/GIT_PROJECT_TEST/admin_k8s/admin_k8s.csproj",
+        "projectName": "admin_k8s",
+        "projectPath": "/home/erema/Documents/GIT_PROJECT_TEST/admin_k8s/admin_k8s.csproj",
+        "packagesPath": "/home/erema/.nuget/packages/",
+        "outputPath": "/home/erema/Documents/GIT_PROJECT_TEST/admin_k8s/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/erema/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "KubernetesClient": {
+              "target": "Package",
+              "version": "[13.0.26, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.201/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
